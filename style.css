@@ -1,0 +1,141 @@
+/*
+Theme Name: Blog1
+Author: Samuel Ogunsanu
+Author URI:Samuel_Ogunsanu@yahoo.co.uk
+Description: First Blog!!!
+Version: 1.0
+*/
+
+/*Import CSS*/
+@import url('css/bootstrap.min.css');
+
+/*General*/
+*{
+	
+}
+
+body{
+	background-image: url("");
+	background-color: ;
+	
+}
+
+
+/*Nav-bar*/
+div.jumbotron-prime div.container h1,div.jumbotron-prime div.container p{
+	color: #fff;
+}
+
+/*Jumbotron header*/
+.jumbotron-prime{
+	background-image: url("img/stadium.jpg");
+	height: 500px;
+	padding-top:30px;
+}
+
+.jumbotron{
+	background-color: ;
+}
+
+ article.post p{
+	color: #000;
+}
+
+div.container div.jumbotron h2, div.container div.jumbotron h2{
+	color: #000;
+}
+
+/*Footer Images*/
+.panel1{
+	background-image: url("img/football.jpg");
+	height: 250px;
+}
+
+.panel2{
+	background-image: url("img/rugby.jpg");
+	height: 250px;
+}
+
+.panel3{
+	background-image: url("img/cricket.jpg");
+	height: 250px;
+}
+/*Footer*/
+
+/*Posts*/
+/*Images Styles*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.has-thumbnail{
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+article.post{
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+/*post format gallery styles*/
+article.post-gallery{
+	background-color: #222;
+	color: #fff;
+	padding: 20px;
+}
+
+article.post-gallery img{
+	border: none!important;
+}
+
+article.post-gallery h2{
+text-align: center;
+}
+
+/*link post format styles*/
+article.post-link{
+	padding: 0;
+	background-color: #e0ebff;
+}
+article.post-link a{
+	display:block;
+	padding:20px;
+}
+
+/*Search*/
+div.hd-search{
+	float: right;
+	margin-top: 5px;
+}
+
+div.hd-search label{
+	position: absolute;
+	left: -9999px;
+}
+
+div.hd-search #searchsubmit{
+	background-color: #006ec3;
+	color: #fff;
+	padding: 5px 14px;
+	border: none;
+	vertical-align: top;
+	margin-top: 5px;
+	
+}
+
+div.hd-search #s{
+	vertical-align:top;
+	padding: 3px;
+	margin-top: 5px;
+}
